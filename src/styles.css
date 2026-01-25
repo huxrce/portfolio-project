@@ -22,10 +22,20 @@ h1 {
   font-size: 96px;
 }
 
+h2 {
+  font-size: 60px;
+}
+
 h3 {
   font-size: 24px;
   font-weight: normal;
   line-height: 2;
+}
+
+p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
 }
 
 .hero {
@@ -45,7 +55,6 @@ h3 {
   border-radius: 4px;
   color: white;
   font-size: 18px;
-  line-height: 1.5;
   padding: 15px 30px;
   transition: all 100ms ease-in-out;
 }
@@ -54,4 +63,50 @@ h3 {
   background-color: var(--primary-color);
   color: white;
   opacity: 0.8;
+}
+
+.btn-outline {
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  color: var(--primary-color);
+  font-size: 18px;
+  padding: 15px 30px;
+  transition: all 100ms ease-in-out;
+}
+
+.btn-outline:hover {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  opacity: 0.8;
+}
+
+.project-description {
+  padding: 40px 20px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .hero h2 {
+    font-size: 24px;
+  }
+
+  .project-description {
+    padding: 0 15px;
+    text-align: center;
+  }
 }
