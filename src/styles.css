@@ -4,6 +4,7 @@
   --primary-color: #800080;
   --secondary-color: #f5f2f7;
   --detail-color: #272142;
+  --box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
 }
 
 body {
@@ -53,6 +54,7 @@ p {
 .btn-branding {
   background-color: var(--primary-color);
   border-radius: 4px;
+  box-shadow: var(--box-shadow);
   color: white;
   font-size: 18px;
   padding: 15px 30px;
@@ -84,6 +86,23 @@ p {
   padding: 40px 20px;
 }
 
+.about-hero {
+  padding: 160px 20px;
+}
+
+.about-hero h1 {
+  font-size: 64px;
+}
+
+.about-hero h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.about-description {
+  margin: 30px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -107,6 +126,12 @@ p {
 
   .project-description {
     padding: 0 15px;
+    text-align: center;
+  }
+
+  .about-hero {
+    margin: 30px auto;
+    padding: 0;
     text-align: center;
   }
 }
