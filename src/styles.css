@@ -29,13 +29,13 @@ nav li {
   margin-left: 15px;
 }
 
-nav a {
+a {
   color: var(--detail-color);
   text-decoration: none;
   transition: all 100ms ease-in-out;
 }
 
-nav a:hover,
+a:hover,
 nav li.active a {
   color: var(--primary-color)
 }
@@ -45,7 +45,8 @@ nav img {
 }
 
 h1,
-h2 {
+h2,
+h4 {
   font-family: var(--heading-font);
   font-weight: bold;
 }
@@ -64,11 +65,41 @@ h3 {
   line-height: 2;
 }
 
+h4 {
+  font-size: 26px;
+}
+
 p {
   font-size: 16px;
   font-weight: normal;
   line-height: 30px;
 }
+
+footer .contact-box {
+  background: var(--secondary-color);
+  border-radius: 10px;
+  padding: 30px 120px;
+}
+
+footer .email-link {
+  font-size: 24px;
+}
+
+footer .social-links a {
+  background: var(--secondary-color);
+  border-radius: 50%;
+  color: var(--primary-color);
+  font-size: 18px;
+  margin: 0 20px;
+  padding: 10px 13px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+}
+
 
 .hero {
   background-color: var(--secondary-color);
@@ -138,17 +169,6 @@ p {
 
 .content p {
   font-size: 14px;
-}
-
-.content a {
-  color: var(--primary-color);
-  text-decoration: none;
-  transition: all 100ms ease-in-out;
-}
-
-.content a:hover {
-  opacity: 80%;
-  text-decoration: underline;
 }
 
 .content {
