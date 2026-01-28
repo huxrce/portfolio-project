@@ -46,7 +46,7 @@ nav img {
 
 h1,
 h2,
-h4 {
+h3 {
   font-family: var(--heading-font);
   font-weight: bold;
 }
@@ -60,13 +60,13 @@ h2 {
 }
 
 h3 {
-  font-size: 24px;
-  font-weight: normal;
-  line-height: 2;
+  font-size: 48px;
 }
 
 h4 {
-  font-size: 26px;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 2;
 }
 
 p {
@@ -103,7 +103,7 @@ footer .social-links a:hover {
 
 .hero {
   background-color: var(--secondary-color);
-  padding: 160px 20px;
+  padding: 80px 20px;
   text-align: center;
 }
 
@@ -149,7 +149,7 @@ footer .social-links a:hover {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content h1 {
@@ -184,7 +184,7 @@ footer .social-links a:hover {
     font-size: 44px;
   }
 
-  h3 {
+  h4 {
     font-size: 18px;
   }
 
