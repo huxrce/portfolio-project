@@ -86,20 +86,30 @@ p {
   padding: 40px 20px;
 }
 
-.about-hero {
+.content-container {
   padding: 160px 20px;
 }
 
-.about-hero h1 {
+.content h1 {
   font-size: 64px;
+  line-height: 80px;
 }
 
-.about-hero h3 {
+.content h2 {
+  font-family: var(--main-font);
+  font-size: 24px;
+}
+
+.content h3 {
   font-size: 18px;
   font-weight: bold;
 }
 
-.about-description {
+.content p {
+  font-size: 14px;
+}
+
+.content {
   margin: 30px;
 }
 
@@ -129,8 +139,7 @@ p {
     text-align: center;
   }
 
-  .about-hero {
-    margin: 30px auto;
+  .content {
     padding: 0;
     text-align: center;
   }
